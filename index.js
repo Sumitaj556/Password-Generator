@@ -37,3 +37,5 @@ function generateUsername() {
 }
 
 document.getElementById("generate-btn").addEventListener("click", generateUsername);
+
+// Sumit Kejriwal
