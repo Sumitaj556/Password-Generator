@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+  overflow: hidden;
+}
+
+/* Container */
+.container {
+  display: flex;
+  width: 90%;
+  max-width: 1200px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Left Section */
+.description {
+  width: 30%;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.4);
+  color: #ddd;
+}
+
+.description h2 {
+  color: #ffd700;
+}
+
+.description p {
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* Right Section */
+.main-content {
+  width: 70%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+  color: #ffd700;
+  margin-bottom: 20px;
+}
+
+form {
+  width: 100%;
+  max-width: 400px;
+}
+
+label {
+  font-size: 1rem;
+  color: #fff;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+input::placeholder {
+  color: #ddd;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff4500;
+}
+
+.username-display {
+  font-style: italic;
+  color: #ffd700;
+  padding: 10px;
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 8px;
+}
